@@ -19,7 +19,7 @@ Chooses the optimal robot for pick up by calculating the distance between the pa
 1. Clone the repository onto your local machine.
 2. On your preferred IDE, open and run the code.
    - VS Code: In the terminal, go to the SVTRobotics.API folder and run ‘dotnet run’.
-     - You should have a server listening on https://localhost:5001/api/robots/closest
+     - You should have a server listening on _https://localhost:5001/api/robots/closest_
    - Visual Studio: Open the solution file ‘SVTRobotics.sln’.
      - Start debugging by clicking on the green arrow near the top.
      - The swagger page will open.
