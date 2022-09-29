@@ -25,22 +25,22 @@ Chooses the optimal robot for pick up by calculating the distance between the pa
      - The swagger page will open.
 3. By either using swagger or postman, send POST requests to _https://localhost:5001/api/robots/closest_ with the payload.
    - Example payload:
-     ...
+     ```
      {
         loadId: 100,
         x: 5,
         y: 3
      }
-     ...
+     ```
 4. The API will respond with the closest robot:
    - Example response:
-     ...
+     ```
      {
         robotId: 4,
         distanceToGoal: 5,
         batteryLevel: 37
      }
-     ...
+     ```
 
 ## Enhancements
 
