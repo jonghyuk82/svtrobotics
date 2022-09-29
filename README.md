@@ -6,11 +6,11 @@ Chooses the optimal robot for pick up by calculating the distance between the pa
 
 ## Preview
 
-### Using vscode and postman
+### Using VS Code and postman
 
 <img src='./resource/vscode.gif' />
 
-### Using visual studio and swagger
+### Using Visual Studio and swagger
 
 <img src='./resource/visualstudio.gif' />
 
