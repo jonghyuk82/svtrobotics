@@ -27,18 +27,18 @@ Chooses the optimal robot for pick up by calculating the distance between the pa
    - Example payload:
      ...
      {
-     "loadId": 100,
-     "x": 5,
-     "y": 3
+        loadId: 100,
+        x: 5,
+        y: 3
      }
      ...
 4. The API will respond with the closest robot:
    - Example response:
      ...
      {
-     "robotId": 4,
-     "distanceToGoal": 5,
-     "batteryLevel": 37
+        robotId: 4,
+        distanceToGoal: 5,
+        batteryLevel: 37
      }
      ...
 
